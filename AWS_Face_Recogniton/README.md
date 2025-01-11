@@ -21,13 +21,6 @@ The application offers a seamless user experience for uploading videos, performi
 
 ![Face Recognition](./assets/Face_recognition.png)
 
-## Live Demo
-
-To try the application, click the link below to access the deployed web app:
-
-[Try the Live Web App](https://main.d33qbkw26czp73.amplifyapp.com/)
-
-
 ## System Design
 The diagram below illustrates the overall system design of the AWS Face Recognition Web Application. It shows how the frontend interacts with various AWS services like API Gateway, Lambda, S3, and Rekognition for video uploads, facial recognition processing, and real-time result updates.
 
@@ -128,5 +121,5 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Adi7171/AWS_Face_Recognition.git
+   git clone https://github.com/pranavreddyg17/Projects/AWS_Face_Recognition.git
    cd AWS_Face_Recognition
