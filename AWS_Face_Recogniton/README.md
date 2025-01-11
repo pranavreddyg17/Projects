@@ -19,8 +19,6 @@ The **AWS Face Recognition Web Application** is an intelligent system that allow
 
 The application offers a seamless user experience for uploading videos, performing facial recognition, and displaying results in a clear and interactive interface.
 
-![Face Recognition](./assets/Face_recognition.png)
-
 ## System Design
 The diagram below illustrates the overall system design of the AWS Face Recognition Web Application. It shows how the frontend interacts with various AWS services like API Gateway, Lambda, S3, and Rekognition for video uploads, facial recognition processing, and real-time result updates.
 
