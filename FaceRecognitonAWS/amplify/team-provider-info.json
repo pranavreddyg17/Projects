@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facerec-dev-a8e33-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382573372:role/amplify-facerec-dev-a8e33-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382573372:role/amplify-facerec-dev-a8e33-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-facerec-dev-a8e33-deployment",
+      "UnauthRoleName": "amplify-facerec-dev-a8e33-unauthRole",
+      "StackName": "amplify-facerec-dev-a8e33",
+      "StackId": "arn:aws:cloudformation:us-east-1:992382573372:stack/amplify-facerec-dev-a8e33/6459ce40-1424-11ef-abdf-0affe3df61b1",
+      "AmplifyAppId": "d33qbkw26czp73"
+    },
+    "categories": {
+      "auth": {
+        "facerec8740eb58": {}
+      }
+    }
+  }
+}

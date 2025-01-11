@@ -1,0 +1,10 @@
+
+// In your main CSS file (e.g., src/index.css)
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'material-ui/core/styles';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

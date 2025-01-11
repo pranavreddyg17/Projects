@@ -1,0 +1,243 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* App Background */
+.Face_App {
+    background: #f8f9fa; /* Neutral background */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2rem;
+}
+
+/* Header Section */
+.header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333333;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #555555;
+    margin-top: 0.5rem;
+}
+
+/* User Info */
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 15px 20px;
+    margin: 0 auto 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.greeting {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1976d2;
+}
+
+.username {
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.username:hover {
+    color: #125ca7;
+    cursor: pointer;
+}
+
+.signout-button {
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.signout-button:hover {
+    background-color: #b71c1c;
+}
+
+/* Main Content Section */
+.main-content {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;    /* Center align items */
+    text-align: center;     /* Center text inside */
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+/* Upload Button */
+.upload-button {
+    display: block;         /* Ensure it behaves like a block element */
+    margin: 0 auto 1rem;    /* Center the button with some space below */
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: none;
+    color: #ffffff;
+    background-color: #1976d2;
+    width: 70%;             /* Adjust width as needed */
+    height: 5rem;
+    /* margin-bottom: 5rem; */
+}
+
+.upload-button:hover {
+    background-color: #125ca7;
+}
+
+/* Send Button */
+.send-button {
+    display: block;         /* Ensure it behaves like a block element */
+    margin: 3rem auto 0;    /* Place it below the upload button */
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: none;
+    color: #ffffff;
+    background-color: #2e7d32;
+    width: 70%;             /* Adjust width as needed */
+    height: 3rem;
+}
+
+.send-button:hover {
+    background-color: #1b5e20;
+}
+
+/* File List */
+.file-list {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #555555;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    width: 23rem;
+}
+
+.file-item .remove-btn {
+    background: none;
+    border: none;
+    color: #d32f2f;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.file-item .remove-btn:hover {
+    color: #b71c1c;
+}
+
+/* Table Container */
+.Tablecontainer {
+    margin-top: 2rem;
+    width: 23rem;
+    /* max-width: 800px; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+thead {
+    background-color: #1976d2;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+thead th {
+    padding: 10px;
+}
+
+tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    padding: 10px;
+    color: #333333;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .user-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .signout-button {
+        margin-top: 10px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+    .file-item {
+        width: 15rem;
+    }
+}
